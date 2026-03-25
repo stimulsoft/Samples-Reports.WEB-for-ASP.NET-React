@@ -1,0 +1,121 @@
+# Folders
+.vs/
+.idea/
+/packages/
+/*/packages/
+/*/bin/
+/**/bin/
+/TestWinUI2/*/bin/
+/*/csx/
+/*/ecf/
+/*/obj/
+/**/obj/
+/TestWinUI2/*/obj/
+/*/obj.NS/
+/*/node_modules/
+/**/node_modules/
+/*/.avalonia-build-tasks/
+claude/
+.claude/
+claude_cache/
+*.claude
+
+# React / Frontend build output
+**/ClientApp/build/
+**/ClientApp/dist/
+**/wwwroot/dist/
+**/wwwroot/build/
+
+# npm / yarn / pnpm
+**/package-lock.json
+**/yarn.lock
+**/pnpm-lock.yaml
+.npm/
+.yarn/
+
+# ASP.NET / .NET
+*.user
+*.pubxml
+!Navigator.Web/Properties/PublishProfiles/Navigator.Web.FinalBuilder.pubxml
+*.DotSettings
+*.PublishSettings
+*.suo
+*.ncrunchproject
+*.ncrunchsolution
+.vs/
+launchSettings.json
+
+# NuGet
+*.nupkg
+*.snupkg
+local-packages/
+nuget.config
+
+# Logs & temp files
+*.log
+*.tmp
+*.temp
+Thumbs.db
+.DS_Store
+ehthumbs.db
+Desktop.ini
+
+# Environment & secrets
+.env
+.env.*
+appsettings.Production.json
+appsettings.*.local.json
+secrets.json
+**/secrets/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Projects
+/Navigator.Web/_bin_deployableAssemblies/
+/Navigator.Web/Handlers/Cache/
+/Stimulsoft.Server.Developers.Web/build/
+/Stimulsoft.Server.Developers.Master/build/
+/Stimulsoft.Server.Developers.Craft/build
+/Stimulsoft.Controls.Win/DotNetBarDesignTime/bin/
+/Stimulsoft.Controls.Win/DotNetBarDesignTime/obj/
+/TestAvalonia.ViewerCrossPlatform/*/obj/
+Stimulsoft.App.Setup/Resources/*.msi
+
+# Obsolete
+/.NetCore
+/.obsolete
+Stimulsoft.Report.Design/Stimulsoft.Report.Design.xml
+Navigator.Web/Web.Release-Cloud.config
+/Stimulsoft.Reports.Web.WithDashboards.sln
+/TestAspNet/Default.aspx.cs
+/TestAspNet/Designer.aspx
+/TestAspNet/Designer.aspx.cs
+TestWebNetCore31/wwwroot/debug.log
+Navigator.Web/Properties/PublishProfiles/stimulsoft-reports-deploy - FTP.pubxml
+/Monitor/Images/Log/Warning_x4.png
+/Monitor/Images/Log/Warning_x3.png
+/Monitor/Images/Log/Warning_x2_5.png
+/Monitor/Images/Log/Warning_x2.png
+/Monitor/Images/Log/Warning_x1_75.png
+/Monitor/Images/Log/Warning_x1_5.png
+/Monitor/Images/Log/Warning_x1_25.png
+/Monitor/Images/Log/Information_x4.png
+/Monitor/Images/Log/Information_x3.png
+/Monitor/Images/Log/Information_x2_5.png
+/Monitor/Images/Log/Information_x2.png
+/Monitor/Images/Log/Information_x1_75.png
+/Monitor/Images/Log/Information_x1_5.png
+/Monitor/Images/Log/Information_x1_25.png
+/Monitor/Images/Log/Error_x4.png
+/Monitor/Images/Log/Error_x3.png
+/Monitor/Images/Log/Error_x2_5.png
+/Monitor/Images/Log/Error_x2.png
+/Monitor/Images/Log/Error_x1_75.png
+/Monitor/Images/Log/Error_x1_5.png
+/Monitor/Images/Log/Error_x1_25.png
+TestAvalonia.ViewerCrossPlatform/TestAvalonia.ViewerCrossPlatform/TestAvalonia.ViewerCrossPlatform.Desktop/.avalonia-build-tasks/avalonia_buildf0c6f9c4-afec-4882-b474-08ccd453b1c5
+Navigator.Web/Properties/PublishProfiles/Navigator.Web.FinalBuilder.pubxml
+/Stimulsoft.Report.React.Viewer/ClientApp/node_modules
+/Stimulsoft.Report.React.Viewer/ClientApp/dist

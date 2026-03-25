@@ -1,0 +1,3 @@
+@echo off
+echo Packing Stimulsoft.Reports.React.NetCore NuGet package...
+powershell -ExecutionPolicy Bypass -File "%~dp0pack-nuget.ps1"
