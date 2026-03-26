@@ -23,6 +23,7 @@ namespace Integrating_the_Report_Viewer_into_an_Application.Controllers
             var options = new StiReactViewerOptions();
             options.Actions.GetReport = "GetReport";
             options.Actions.ViewerEvent = "ViewerEvent";
+            options.Toolbar.ShowPinToolbarButton = false;
             options.Appearance.ScrollbarsMode = true;
 
             return StiReactViewer.ViewerDataResult(requestParams, options);

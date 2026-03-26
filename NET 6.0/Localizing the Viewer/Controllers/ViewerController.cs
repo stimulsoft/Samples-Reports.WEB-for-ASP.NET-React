@@ -23,6 +23,7 @@ namespace Localization.Controllers
             var options = new StiReactViewerOptions();
             options.Actions.GetReport = "GetReport";
             options.Actions.ViewerEvent = "ViewerEvent";
+            options.Toolbar.ShowPinToolbarButton = false;
             options.Appearance.ScrollbarsMode = true;
             options.Localization = StiReactHelper.MapPath(this, "Localization/de.xml");
 

@@ -27,6 +27,7 @@ namespace Using_Viewer_Parameters.Controllers
             var options = new StiReactViewerOptions();
             options.Actions.GetReport = "GetReport";
             options.Actions.ViewerEvent = "ViewerEvent";
+            options.Toolbar.ShowPinToolbarButton = false;
             options.Appearance.ScrollbarsMode = true;
 
             return StiReactViewer.ViewerDataResult(requestParams, options);

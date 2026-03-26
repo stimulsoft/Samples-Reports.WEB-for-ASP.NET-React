@@ -25,6 +25,7 @@ namespace Sending_a_Report_by_Email.Controllers
             options.Actions.GetReport = "GetReport";
             options.Actions.EmailReport = "EmailReport";
             options.Actions.ViewerEvent = "ViewerEvent";
+            options.Toolbar.ShowPinToolbarButton = false;
             options.Appearance.ScrollbarsMode = true;
             options.Toolbar.ShowSendEmailButton = true;
 
