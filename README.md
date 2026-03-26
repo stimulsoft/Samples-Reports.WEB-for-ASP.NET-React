@@ -15,6 +15,7 @@ All examples are combined into Visual Studio solutions (.sln files). They are pr
 
 * [.NET 6.0](https://github.com/stimulsoft/Samples-Reports.WEB-for-ASP.NET-React/tree/master/NET%206.0)
 * [.NET 8.0](https://github.com/stimulsoft/Samples-Reports.WEB-for-ASP.NET-React/tree/master/NET%208.0)
+* [.NET 10.0](https://github.com/stimulsoft/Samples-Reports.WEB-for-ASP.NET-React/tree/master/NET%2010.0)
 
 ## Running samples
 In order to start simply open the Visual Studio solution file in the IDE and run the required project as Startup Project. The required libraries will be automatically downloaded from the NuGet repository.

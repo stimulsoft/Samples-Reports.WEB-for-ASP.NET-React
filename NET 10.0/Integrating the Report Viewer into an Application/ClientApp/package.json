@@ -6,7 +6,7 @@
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-scripts": "5.0.1",
-    "stimulsoft-viewer-react": "file:../../../../Stimulsoft.Reports/Stimulsoft.Report.React.Viewer/ClientApp/dist/stimulsoft-viewer-react",
+    "stimulsoft-viewer-react": "latest",
     "typescript": "^4.9.5"
   },
   "devDependencies": {
