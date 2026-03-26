@@ -17,7 +17,7 @@ export const App: React.FC = () => {
             </select>
 
             <StimulsoftViewer
-                requestUrl="http://localhost:60801/Viewer/{action}"
+                requestUrl="/Viewer/{action}"
                 action="InitViewer"
                 height="100vh"
                 properties={properties}

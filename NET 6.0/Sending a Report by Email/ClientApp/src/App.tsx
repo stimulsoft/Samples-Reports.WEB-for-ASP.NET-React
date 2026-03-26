@@ -4,7 +4,7 @@ import { StimulsoftViewer } from 'stimulsoft-viewer-react';
 export const App: React.FC = () => {
     return (
         <StimulsoftViewer
-            requestUrl="http://localhost:60803/Viewer/{action}"
+            requestUrl="/Viewer/{action}"
             action="InitViewer"
             height="100vh"
         />

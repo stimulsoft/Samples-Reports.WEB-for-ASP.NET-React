@@ -12,7 +12,7 @@ export const App: React.FC = () => {
 
     return (
         <StimulsoftViewer
-            requestUrl="http://localhost:60801/Viewer/{action}"
+            requestUrl="/Viewer/{action}"
             action="InitViewer"
             height="100vh"
             onLoaded={loaded}

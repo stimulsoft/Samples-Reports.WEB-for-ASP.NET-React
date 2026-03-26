@@ -35,7 +35,7 @@ export const App: React.FC = () => {
 
             <StimulsoftViewer
                 ref={viewerRef}
-                requestUrl="http://localhost:60801/Viewer/{action}"
+                requestUrl="/Viewer/{action}"
                 action="InitViewer"
                 height="100vh"
             />
