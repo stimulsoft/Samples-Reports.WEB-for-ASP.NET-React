@@ -49,7 +49,6 @@ launchSettings.json
 *.nupkg
 *.snupkg
 local-packages/
-nuget.config
 
 # Logs & temp files
 *.log
