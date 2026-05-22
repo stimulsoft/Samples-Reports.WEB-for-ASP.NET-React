@@ -943,8 +943,8 @@
     <StiReportControl>Kiểm soát báo cáo</StiReportControl>
     <StiRichTextBoxControl>Hộp văn bản đa dạng</StiRichTextBoxControl>
     <StiSliderControl>Thanh trượt</StiSliderControl>
+    <StiSwitchControl>Nút chuyển đổi</StiSwitchControl>
     <StiTextBoxControl>Hộp văn bản</StiTextBoxControl>
-    <StiToggleControl>Nút chuyển đổi</StiToggleControl>
     <StiTreeViewControl>Chế độ xem dạng cây</StiTreeViewControl>
   </Dialogs>
   <Editor>
@@ -4678,7 +4678,7 @@
     <StartPosition>Vị trí bắt đầu</StartPosition>
     <StartValue>Giá trị bắt đầu</StartValue>
     <StartWidth>Chiều rộng bắt đầu</StartWidth>
-    <State>Bang</State>
+    <State>Trạng thái</State>
     <Step>Bước</Step>
     <Stop>Dừng</Stop>
     <StopBeforePage>Dừng trước trang</StopBeforePage>
