@@ -8,6 +8,7 @@ This repository has a set of examples (Visual Studio projects), each in differen
 * [Localizing the Viewer](https://github.com/stimulsoft/Samples-Reports.WEB-for-ASP.NET-React/tree/master/NET%208.0/Localizing%20the%20Viewer)
 * [Sending a Report by Email](https://github.com/stimulsoft/Samples-Reports.WEB-for-ASP.NET-React/tree/master/NET%208.0/Sending%20a%20Report%20by%20Email)
 * [Using API Methods](https://github.com/stimulsoft/Samples-Reports.WEB-for-ASP.NET-React/tree/master/NET%208.0/Using%20API%20Methods)
+* [Using Designer Events](https://github.com/stimulsoft/Samples-Reports.WEB-for-ASP.NET-React/tree/master/NET%208.0/Using%20Designer%20Events)
 * [Using Viewer Events](https://github.com/stimulsoft/Samples-Reports.WEB-for-ASP.NET-React/tree/master/NET%208.0/Using%20Viewer%20Events)
 * [Using Viewer Parameters](https://github.com/stimulsoft/Samples-Reports.WEB-for-ASP.NET-React/tree/master/NET%208.0/Using%20Viewer%20Parameters)
 

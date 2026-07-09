@@ -1,0 +1,51 @@
+using Microsoft.AspNetCore.Mvc;
+using Stimulsoft.Report;
+using Stimulsoft.Report.React;
+
+namespace Using_Designer_Events.Controllers
+{
+    [Controller]
+    public class ViewerController : Controller
+    {
+        static ViewerController()
+        {
+            // How to Activate
+            //Stimulsoft.Base.StiLicense.Key = "6vJhGtLLLz2GNviWmUTrhSqnO...";
+            //Stimulsoft.Base.StiLicense.LoadFromFile("stimulsoft.key");
+            //Stimulsoft.Base.StiLicense.LoadFromStream(stream);
+        }
+
+        [HttpPost]
+        public IActionResult InitViewer()
+        {
+            var requestParams = StiReactViewer.GetRequestParams(this);
+
+            var options = new StiReactViewerOptions();
+            options.Actions.GetReport = "GetReport";
+            options.Actions.ViewerEvent = "ViewerEvent";
+            options.Toolbar.ShowPinToolbarButton = false;
+            options.Appearance.ScrollbarsMode = true;
+
+            // Enable Design button in viewer options
+            options.Toolbar.ShowDesignButton = true;
+
+            return StiReactViewer.ViewerDataResult(requestParams, options);
+        }
+
+        [HttpPost]
+        public IActionResult GetReport()
+        {
+            var report = StiReport.CreateNewReport();
+            var path = StiReactHelper.MapPath(this, $"Reports/MasterDetail.mrt");
+            report.Load(path);
+
+            return StiReactViewer.GetReportResult(this, report);
+        }
+
+        [HttpPost]
+        public IActionResult ViewerEvent()
+        {
+            return StiReactViewer.ViewerEventResult(this);
+        }
+    }
+}
