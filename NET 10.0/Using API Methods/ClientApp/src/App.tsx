@@ -34,8 +34,8 @@ export const App: React.FC = () => {
     const [zoom, setZoom] = useState<number>(100);
     const [currentPage, setCurrentPage] = useState<number>(0);
 
-    // Обновляем zoom и currentPage из viewer каждые 200ms
-    // (аналог Angular binding viewer.api.zoom / viewer.api.currentPage)
+    // Update zoom and currentPage from the viewer every 200ms
+    // (analogue of Angular binding viewer.api.zoom / viewer.api.currentPage)
     useEffect(() => {
         const interval = setInterval(() => {
             if (viewerRef.current) {
